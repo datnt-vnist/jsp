@@ -1,0 +1,408 @@
+{
+    "num_machines": 5,
+    "num_workers": 3,
+    "jobs": [
+        {
+            "id": 1,
+            "operations": [
+                {
+                    "id": 1,
+                    "base_process_time": 9,
+                    "prev_operation": 2,
+                    "next_operation": null,
+                    "machine_set": [
+                        {
+                            "id": 1,
+                            "factor": 1,
+                            "cost_per_hour": 15,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.11,
+                                    "base_salary": 22
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "factor": 0.66,
+                            "cost_per_hour": 14,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 20
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.11,
+                                    "base_salary": 16.6
+                                },
+                                {
+                                    "id": 3,
+                                    "factor": 1.22,
+                                    "base_salary": 11.6
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 4,
+                            "factor": 1.99,
+                            "cost_per_hour": 12,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 9
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "base_process_time": 5,
+                    "prev_operation": 1,
+                    "next_operation": 3,
+                    "machine_set": [
+                        {
+                            "id": 1,
+                            "factor": 1,
+                            "cost_per_hour": 15,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.6,
+                                    "base_salary": 22
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "factor": 1.2,
+                            "cost_per_hour": 13,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1.16,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.11,
+                                    "base_salary": 22
+                                },
+                                {
+                                    "id": 3,
+                                    "factor": 1.5,
+                                    "base_salary": 20
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 5,
+                            "factor": 1.2,
+                            "cost_per_hour": 11,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.28,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "base_process_time": 7,
+                    "prev_operation": 2,
+                    "next_operation": null,
+                    "machine_set": [
+                        {
+                            "id": 3,
+                            "factor": 1,
+                            "cost_per_hour": 14,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 4,
+                            "factor": 1.16,
+                            "cost_per_hour": 12,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.14,
+                                    "base_salary": 22
+                                },
+                                {
+                                    "id": 3,
+                                    "factor": 1.42,
+                                    "base_salary": 20
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 5,
+                            "factor": 1.16,
+                            "cost_per_hour": 11,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.71,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "id": 2,
+            "operations": [
+                {
+                    "id": 1,
+                    "base_process_time": 5,
+                    "prev_operation": null,
+                    "next_operation": 2,
+                    "machine_set": [
+                        {
+                            "id": 1,
+                            "factor": 1,
+                            "cost_per_hour": 15,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.2,
+                                    "base_salary": 22
+                                },
+                                {
+                                    "id": 3,
+                                    "factor": 1.4,
+                                    "base_salary": 20
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "factor": 1.4,
+                            "cost_per_hour": 12,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.14,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 5,
+                            "factor": 1.2,
+                            "cost_per_hour": 11,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "base_process_time": 4,
+                    "prev_operation": 1,
+                    "next_operation": 3,
+                    "machine_set": [
+                        {
+                            "id": 1,
+                            "factor": 1,
+                            "cost_per_hour": 15,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.5,
+                                    "base_salary": 22
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "factor": 1.2,
+                            "cost_per_hour": 14,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 5,
+                            "factor": 1.2,
+                            "cost_per_hour": 11,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.16,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "operations": [
+                {
+                    "id": 1,
+                    "base_process_time": 5,
+                    "prev_operation": null,
+                    "next_operation": 2,
+                    "machine_set": [
+                        {
+                            "id": 1,
+                            "factor": 1,
+                            "cost_per_hour": 15,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.6,
+                                    "base_salary": 22
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "factor": 1.5,
+                            "cost_per_hour": 14,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.5,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }, 
+                        {
+                            "id": 4,
+                            "factor": 1,
+                            "cost_per_hour": 12,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                },
+                                {
+                                    "id": 2,
+                                    "factor": 1.2,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "base_process_time": 4,
+                    "prev_operation": 1,
+                    "next_operation": 3,
+                    "machine_set": [
+                        {
+                            "id": 2,
+                            "factor": 1,
+                            "cost_per_hour": 14,
+                            "worker_set": [
+                                {
+                                    "id": 1,
+                                    "factor": 1,
+                                    "base_salary": 25
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "factor": 0.75,
+                            "cost_per_hour": 13,
+                            "worker_set": [
+                                {
+                                    "id": 2,
+                                    "factor": 1,
+                                    "base_salary": 22
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
