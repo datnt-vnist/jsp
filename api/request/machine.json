@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "code": "M001",
+        "name": "Máy trộn L20",
+        "efficiency_score": 1.0,
+        "cost_per_hour": 4000
+    },
+    {
+        "id": 2,
+        "code": "M002",
+        "name": "Máy trộn L40",
+        "efficiency_score": 0.9,
+        "cost_per_hour": 5000
+    },
+    {
+        "id": 3,
+        "code": "M003",
+        "name": "Máy nén F15",
+        "efficiency_score": 1.1,
+        "cost_per_hour": 6000
+    },
+    {
+        "id": 4,
+        "code": "M004",
+        "name": "Máy nén F20",
+        "efficiency_score": 1.0,
+        "cost_per_hour": 1500
+    },
+    {
+        "id": 5,
+        "code": "M006",
+        "name": "Máy đóng gói C50",
+        "efficiency_score": 1.2,
+        "cost_per_hour": 2000
+    },
+    {
+        "id": 6,
+        "code": "M007",
+        "name": "Máy đóng gói C50",
+        "efficiency_score": 1.1,
+        "cost_per_hour": 1200
+    }
+]
