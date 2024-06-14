@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "command_id": 1,
+        "name": "Nhập nguyên liệu",
+        "prev_operation": null,
+        "setup_time": 1,
+        "machines": [{
+            "machine": null,
+            "workerRole": 1,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }],
+        "status": 2,
+        "assigned_machine": null,
+        "assigned_worker": 1,
+        "start_date": "2024-06-14",
+        "start_hour": 6,
+        "end_date": "2024-06-16",
+        "end_hour": 6
+    },
+    {   
+        "id": 2,
+        "command_id": 1,
+        "name": "Trộn nguyên liệu",
+        "prev_operation": [1],
+        "setup_time": 1,
+        "machines": [{
+            "machine": 1,
+            "workerRole": 2,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }, {
+            "machine": 2,
+            "workerRole": 2,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }],
+        "status": 1
+    },
+    {
+        "id": 3,
+        "command_id": 1,
+        "name": "Dập viên nén",
+        "prev_operation": [2],
+        "setup_time": 1,
+        "machines": [{
+            "machine": 3,
+            "workerRole": 3,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }, {
+            "machine": 4,
+            "workerRole": 3,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }],
+        "status": 1
+    },
+    {
+        "id": 4,
+        "command_id": 1,
+        "name": "Đóng gói",
+        "prev_operation": [3],
+        "setup_time": 1,
+        "machines": [{
+            "machine": 5,
+            "workerRole": 4,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }, {
+            "machine": 6,
+            "workerRole": 4,
+            "hour_production": 2000,
+            "min_exp_years": 0
+        }],
+        "status": 1
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "code": "LSX240604",
+        "good_id": 1,
+        "quantity": 5000,
+        "planned_start_time": "07/06/2024 8:00",
+        "planned_end_time": "13/06/2024 8:00",
+        "description": "Lệnh sản xuất Aspirin",
+        "number_of_operations": 3
+    }
+]
